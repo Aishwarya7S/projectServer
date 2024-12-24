@@ -27,7 +27,7 @@ app.use("/api/items",stockinRouter);
 app.use("/api/exits",stockoutRouter);
 app.use("/api/demos",DemoRouter);
 
-const db = 'mongodb+srv://aishu:JPIRsAGodivsHgIs@job1.lmyhs.mongodb.net/task?retryWrites=true&w=majority&appName=job1'
+const db = 'mongodb link'
 mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("DB connected successfully");
