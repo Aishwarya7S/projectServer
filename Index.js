@@ -9,6 +9,7 @@ const subRouter = require('./Router/SubRouter');
 const inventoryRouter = require('./Router/InventoryRouter');
 const stockinRouter = require('./Router/StockInRouter');
 const stockoutRouter = require('./Router/StockOutRouter');
+const purchaseRouter = require('./Router/PurchaseRouter');
 const DemoRouter = require('./Router/DemoRouter');
 
 
@@ -25,6 +26,7 @@ app.use("/api/subcategories", subRouter);
 app.use("/api/inventories",inventoryRouter);
 app.use("/api/items",stockinRouter);
 app.use("/api/exits",stockoutRouter);
+app.use("/api/purchasers",purchaseRouter);
 app.use("/api/demos",DemoRouter);
 
 const db = 'mongodb link'
