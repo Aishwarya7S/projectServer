@@ -1,5 +1,5 @@
 ## CIVIL STORE MANAGEMENT SYSTEM - MERN STACK
-# Server Folder  
+### Server Folder  
 
 This folder focuses on the backend development of the **Civil Store Management System**. It is designed to efficiently handle:  
 
